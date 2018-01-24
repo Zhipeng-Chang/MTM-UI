@@ -7,7 +7,14 @@ export default class About extends React.Component {
   
   render() {
     return (
-      <div></div>
+      <div>
+      <div className="continer">
+       <div className="row">
+       <div className="col -lg -12 text-center ">
+       <h2>About<h2>
+      </div>
+      <div className="col -lg -12 text-center ">
+      <p> You can find me here <p>
     );
   }
   
