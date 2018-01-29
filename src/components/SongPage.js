@@ -35,7 +35,7 @@ export default class SongPage extends React.Component {
     let songId = this.props.match.params.id;
 
     this.loadSongInfo(songId);
-    //this.loadSongRankings(songId);
+    this.loadSongRankings(songId);
     this.loadSongMedia(songId);
   };
 
